@@ -1,0 +1,41 @@
+
+.header {
+    background-color: #b7b9a8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.company {
+    color: #0c0d0d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    
+}
+.input {
+    background-color: transparent;
+    border: 1px solid #0c0d0d;
+    padding: 5px;
+}
+.input:focus {
+    outline: none;
+}
+.button {
+    padding: 6px;
+    background-color: #0c0d0d;
+    border: none;
+    color: #b7b9a8;
+}
+.input::placeholder {
+    color: #0c0d0d;
+}
+.icons {
+    display: flex;
+    gap: 2rem;
+}
+.icon {
+    font-size: 2.5rem;
+    color: #0c0d0d;
+    font-weight: bold;
+}
