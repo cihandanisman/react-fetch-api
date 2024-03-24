@@ -39,11 +39,10 @@ const Card = (props) => {
   }
   return (
     <div className="card-body-wrapper">
-      {data?.length > 0 && data?.filter((a) => {
-        if(a.original_title.toLowerCase().includes(props.title.toLowerCase())){
-          return a
-        } 
-      }).map((item, i) => (
+      {data?.length > 0 && data?.filter((a) => (
+        (a.original_title.toLowerCase().includes(props.title.toLowerCase())))
+        
+      ).map((item, i) => (
         <div className="card-info" key={i}>
           <button className="btn-js" onClick={(()=> handleDelete(item))}>X</button>
           <div className="card-body">

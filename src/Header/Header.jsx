@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import { FaPenFancy } from "react-icons/fa";
 import { IoIosBook } from "react-icons/io";
